@@ -1,8 +1,10 @@
-####1.Build the image:
+#### 1.Build the image:
 `docker build -t stm8flash:latest .`
-####2.Make sure the image is built:
+
+#### 2.Make sure the image is built:
 `docker images`
-####3.Run the container:
+
+#### 3.Run the container:
 /```
 docker run --rm -it \
   --device=/dev/bus/usb \
